@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <main class="container" style="padding: 50px 0;">
+    <div class="form-card" style="max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: var(--shadow);">
+        <h2 style="color: var(--primary);">Post Your Listing</h2>
+        <p style="margin-bottom: 20px; color: #666;">Fill in the details for your item or property.</p>
+
+        <form action="index.html"> <label>What are you posting?</label>
+            <select style="width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px;">
+                <option value="house">🏠 House for Rent/Sale</option>
+                <option value="land">🌳 Land for Sale</option>
+                <option value="item">📦 Fairly Used Item (Marketplace)</option>
+            </select>
+
+            <label>Item/Property Name</label>
+            <input type="text" placeholder="e.g. 2 Bedroom Flat or iPhone 13" required style="width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px;">
+
+            <label>Your Price (₦)</label>
+            <input type="number" placeholder="Set your own price" required style="width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px;">
+
+            <label>Location in Owerri</label>
+            <input type="text" placeholder="e.g. Ikenegbu Extension" required style="width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px;">
+
+            <label>Upload Photos</label>
+            <input type="file" multiple required style="margin: 15px 0;">
+
+            <button type="submit" class="btn-blue" style="width: 100%; padding: 15px; border: none; background: var(--primary); color: white; border-radius: 8px; font-weight: bold; cursor: pointer;">
+                Publish My Listing
+            </button>
+        <button type="post" style="width: 100%; padding: 15px; background: #0077be; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+            🚀 Click to Post Details
+        </button>
+
+        </form>
+    </div>
+    </main>
+    
+</body>
+</html>

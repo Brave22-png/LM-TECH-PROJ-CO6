@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Verify Identity</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>🛡️ Identity Verification</h2>
+        <form action="upload.html">
+            <label>Full Name</label>
+            <input type="text" required>
+            
+            <label>ID Card (NIN/Voters)</label>
+            <input type="file" required>
+            
+            <div style="border: 2px dashed var(--primary); padding: 20px; text-align: center; margin-top: 15px;">
+                <p>Face Recognition Scan</p>
+                <input type="file" capture="user" accept="image/*" required>
+            </div>
+            
+            <button type="submit" style="width: 100%; padding: 15px; background: var(--primary); color: white; border: none; margin-top: 20px; cursor: pointer;">Verify & Continue</button>
+        </form>
+    </div>
+</body>
+</html>
